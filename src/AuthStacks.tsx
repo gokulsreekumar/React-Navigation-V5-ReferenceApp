@@ -23,6 +23,12 @@ function Login({ navigation }: AuthNavProps<"Login">) {
                     login();
                 }}
             />
+            <Button
+                title="To Register"
+                onPress={() => {
+                    navigation.navigate('Register')
+                }}
+            />
         </CenterStuff>
     );
 }
